@@ -59,7 +59,7 @@ export const Hero = () => {
               className="relative inline-flex justify-center items-center w-32 h-12 overflow-hidden rounded-md border border-black bg-white text-black text-lg font-semibold cursor-pointer group"
             >
               <span className="relative z-10 group-hover:text-white transition-colors duration-500">
-                Explore!
+                Explore Work
               </span>
               <span className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500 ease-out"></span>
               <span className="absolute inset-0 bg-black transform scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-700 ease-out delay-100"></span>

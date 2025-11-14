@@ -7,7 +7,7 @@ export const Contact = () => {
       id="contact"
       className="relative py-28 px-6 bg-[#FFFFFF] text-gray-300 overflow-hidden"
     >
-      
+
       <div className="relative container mx-auto max-w-5xl">
         {/* Heading */}
         <motion.h2
@@ -43,11 +43,14 @@ export const Contact = () => {
             </div>
             <h4 className="font-semibold text-white">Email</h4>
             <a
-              href="mailto:kakaniyamitanshu88@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=kakaniyamitanshu88@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-black transition-colors duration-300"
             >
               kakaniyamitanshu88@gmail.com
             </a>
+
           </div>
 
           {/* Phone */}
