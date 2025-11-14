@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Briefcase, Code, Monitor } from "lucide-react";
+import Mitanshu from "../assets/Mitanshu.jpg"
+
 
 export const About = () => {
   return (
@@ -31,7 +33,7 @@ export const About = () => {
           >
             <div className="relative w-56 h-56 md:w-96 md:h-96">
               <img
-                src="./src/assets/Mitanshu.jpg"
+                src={Mitanshu}
                 alt="Mitanshu"
                 className="w-full h-full object-cover rounded-2xl shadow-lg"
               />

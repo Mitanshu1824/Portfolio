@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
+import image from "../assets/image.png";
+
 
 export const Hero = () => {
 
@@ -65,7 +67,7 @@ export const Hero = () => {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/Kakaniya Mitanshu.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex justify-center items-center w-32 h-12 overflow-hidden rounded-md border border-black bg-white text-black text-lg font-semibold cursor-pointer group"
@@ -88,7 +90,7 @@ export const Hero = () => {
           className="flex justify-center md:justify-end"
         >
           <motion.img
-            src="./src/assets/image.png"
+            src={image}
             alt="Desk Setup"
             className="w-[380px] md:w-[480px] lg:w-[520px] object-contain select-none"
             animate={{ y: [-3, 3, -3] }}
