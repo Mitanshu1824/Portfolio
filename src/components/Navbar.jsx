@@ -20,9 +20,14 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full bg-white z-50 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
 
-        {/* Logo */}
-        <h1 className="text-2xl font-semibold text-black">M K</h1>
-
+        <a href="#home" className="flex items-center group">
+          <img
+            src="/image.png"
+            alt="MK Logo"
+            className="w-10 h-10 md:w-16 md:h-16 object-contain transition-transform duration-300 group-hover:scale-110"
+          />
+        </a>
+        
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
